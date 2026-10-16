@@ -1,0 +1,13 @@
+repo,instance_count,sample_commit
+astropy/astropy,6,d16bfe05a744909de4b27f5875fe0d4ed41ce607
+django/django,114,e7fd69d051eaa67cb17f172a39b57253e9cb831a
+matplotlib/matplotlib,23,b7d05919865fc0c37a0164cf467d5d5513bd0ede
+mwaskom/seaborn,4,94621cef29f80282436d73e8d2c0aa76dab81273
+pallets/flask,3,d8c37f43724cd9fb0870f77877b7c4c7e38a19e0
+psf/requests,6,110048f9837f8441ea536804115e80b69f400277
+pydata/xarray,5,863e49066ca4d61c9adfe62aca3bf21b90e1af8c
+pylint-dev/pylint,6,182cc539b8154c0710fcea7e522267e42eba8899
+pytest-dev/pytest,17,6995257cf470d2143ad1683824962de4071c0eb7
+scikit-learn/scikit-learn,23,b90661d6a46aa3619d3eec94d5281f5888add501
+sphinx-doc/sphinx,16,7bdc11e87c7d86dcc2a087eccb7a7c129a473415
+sympy/sympy,77,8dcb12a6cf500e8738d6729ab954a261758f49ca
