@@ -10,8 +10,8 @@ MAX_FILE_LOC = 500  # Keep file small enough for SLM context window
 candidates = []
 
 for py_file in REPO_PATH.rglob("*.py"):
-    # Updated: Skip files starting with 'test_' or inside 'docs'
-    if "docs" in py_file.parts or py_file.name.startswith("test_") or py_file.name == "setup.py":
+    # Ignorevendored packages, test files, docs, and setup scripts
+    if any(part in py_file.parts for part in ["tests", "test", "docs", "build", "packages"]) or py_file.name.startswith("test_") or py_file.name == "setup.py":
         continue
 
     try:
