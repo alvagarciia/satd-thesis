@@ -1,0 +1,3 @@
+File_ID,Repo,CC,MI,File_LOC,Func_LOC,File_Path,Function_Name,Line_Start,Line_End
+requests_sessions_request.py,requests,21,58.28,328,124,repos/requests/requests/sessions.py,request,121,244
+requests_auth_build_digest_header.py,requests,11,41.53,382,73,repos/requests/requests/auth.py,build_digest_header,155,227
