@@ -50,7 +50,9 @@ for py_file in REPO_PATH.rglob("*.py"):
                 "File_Path": str(py_file),
                 "Function_Name": block.name,
                 "Line_Start": block.lineno,
-                "Line_End": block.endline
+                "Line_End": block.endline,
+                "Commit_Hash": "",
+                "Pytest_Command": ""
             })
 
 # Sort by highest complexity first
@@ -59,7 +61,7 @@ candidates.sort(key=lambda x: x["CC"], reverse=True)
 # Write to CSV and print to terminal
 file_exists = os.path.isfile(CSV_FILE)
 with open(CSV_FILE, mode="a", newline="", encoding="utf-8") as csvfile:
-    fieldnames = ["File_ID", "Repo", "CC", "MI", "File_LOC", "Func_LOC", "File_Path", "Function_Name", "Line_Start", "Line_End"]
+    fieldnames = ["File_ID", "Repo", "CC", "MI", "File_LOC", "Func_LOC", "File_Path", "Function_Name", "Line_Start", "Line_End", "Commit_Hash", "Pytest_Command"]
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
     
     # Only write headers if creating a brand new CSV
