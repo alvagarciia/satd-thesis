@@ -2,3 +2,4 @@
 repos/
 __pycache__/
 new_hash.bash
+git_clones.bash
