@@ -3,7 +3,8 @@ from pathlib import Path
 from radon.complexity import cc_visit
 from radon.metrics import mi_visit
 
-REPO_PATH = Path("repos/requests")
+REPO_NAME = "sympy"
+REPO_PATH = Path(f"repos/{REPO_NAME}")
 MIN_CC = 10
 MAX_FILE_LOC = 500  # Keep file small enough for SLM context window
 
@@ -42,5 +43,5 @@ for py_file in REPO_PATH.rglob("*.py"):
             })
 
 candidates.sort(key=lambda x: x["cc"], reverse=True)
-for c in candidates[:15]:
+for c in candidates:
     print(f"CC: {c['cc']:2d} | MI: {c['file_mi']:5.2f} | LOC: {c['file_loc']:3d} | {c['file']} :: {c['function']} (L{c['line_start']}-{c['line_end']})")
