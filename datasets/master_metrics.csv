@@ -10,3 +10,7 @@ sympy_sparse__handle_creation_inputs.py,sympy,48,46.93,473,127,repos/sympy/sympy
 sympy_constructor__construct_composite.py,sympy,42,43.44,387,123,repos/sympy/sympy/polys/constructor.py,_construct_composite,131,253,d3b4158dea271485e3daa11bf82e69b8dab348ce,pytest repos/sympy/sympy/polys/tests/test_constructor.py
 sympy_qapply_qapply_Mul.py,sympy,31,59.97,206,74,repos/sympy/sympy/physics/quantum/qapply.py,qapply_Mul,133,206,d3b4158dea271485e3daa11bf82e69b8dab348ce,pytest repos/sympy/sympy/physics/quantum/tests/test_qapply.py
 sympy_trigonometry_trigintegrate.py,sympy,30,44.02,335,220,repos/sympy/sympy/integrals/trigonometry.py,trigintegrate,29,248,d3b4158dea271485e3daa11bf82e69b8dab348ce,pytest repos/sympy/sympy/integrals/tests/test_trigonometry.py
+pytest_util__compare_eq_any.py,pytest,20,26.1,498,35,repos/pytest/src/_pytest/assertion/util.py,_compare_eq_any,178,212,e2ee3144ed6e241dea8d96215fcdca18b3892551,pytest repos/pytest/testing/test_assertion.py
+pytest_recwarn___exit__.py,pytest,14,56.63,296,34,repos/pytest/src/_pytest/recwarn.py,__exit__,261,294,e2ee3144ed6e241dea8d96215fcdca18b3892551,pytest repos/pytest/testing/test_recwarn.py
+pytest_tmpdir_getbasetemp.py,pytest,12,63.55,211,54,repos/pytest/src/_pytest/tmpdir.py,getbasetemp,102,155,e2ee3144ed6e241dea8d96215fcdca18b3892551,pytest repos/pytest/testing/test_tmpdir.py
+pytest_helpconfig_showhelp.py,pytest,10,46.34,264,71,repos/pytest/src/_pytest/helpconfig.py,showhelp,158,228,e2ee3144ed6e241dea8d96215fcdca18b3892551,pytest repos/pytest/testing/test_helpconfig.py
