@@ -5,7 +5,7 @@ from radon.complexity import cc_visit
 from radon.metrics import mi_visit
 
 # Configuration
-REPO_NAME = "sympy"
+REPO_NAME = "pytest"     ### update
 REPO_PATH = Path(f"repos/{REPO_NAME}")
 MIN_CC = 10
 MAX_FILE_LOC = 500  # Context window limit
@@ -51,7 +51,7 @@ for py_file in REPO_PATH.rglob("*.py"):
                 "Function_Name": block.name,
                 "Line_Start": block.lineno,
                 "Line_End": block.endline,
-                "Commit_Hash": "d3b4158dea271485e3daa11bf82e69b8dab348ce",
+                "Commit_Hash": "e2ee3144ed6e241dea8d96215fcdca18b3892551",  # update
                 "Pytest_Command": ""
             })
 
