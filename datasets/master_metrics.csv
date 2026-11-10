@@ -14,3 +14,4 @@ pytest_util__compare_eq_any.py,pytest,20,26.1,498,35,repos/pytest/src/_pytest/as
 pytest_recwarn___exit__.py,pytest,14,56.63,296,34,repos/pytest/src/_pytest/recwarn.py,__exit__,261,294,e2ee3144ed6e241dea8d96215fcdca18b3892551,pytest repos/pytest/testing/test_recwarn.py
 pytest_tmpdir_getbasetemp.py,pytest,12,63.55,211,54,repos/pytest/src/_pytest/tmpdir.py,getbasetemp,102,155,e2ee3144ed6e241dea8d96215fcdca18b3892551,pytest repos/pytest/testing/test_tmpdir.py
 pytest_helpconfig_showhelp.py,pytest,10,46.34,264,71,repos/pytest/src/_pytest/helpconfig.py,showhelp,158,228,e2ee3144ed6e241dea8d96215fcdca18b3892551,pytest repos/pytest/testing/test_helpconfig.py
+flask_debughelpers_explain_template_loading_attempts.py,flask,13,56.85,179,56,repos/flask/src/flask/debughelpers.py,explain_template_loading_attempts,124,179,182ce3dd15dfa3537391c3efaf9c3ff407d134d4,pytest repos/flask/tests/test_templating.py -k "test_template_loader_debugging"
