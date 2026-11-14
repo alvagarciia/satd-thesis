@@ -15,7 +15,6 @@ pytest_recwarn___exit__.py,pytest,14,56.63,296,34,repos/pytest/src/_pytest/recwa
 pytest_tmpdir_getbasetemp.py,pytest,12,63.55,211,54,repos/pytest/src/_pytest/tmpdir.py,getbasetemp,102,155,e2ee3144ed6e241dea8d96215fcdca18b3892551,pytest repos/pytest/testing/test_tmpdir.py
 pytest_helpconfig_showhelp.py,pytest,10,46.34,264,71,repos/pytest/src/_pytest/helpconfig.py,showhelp,158,228,e2ee3144ed6e241dea8d96215fcdca18b3892551,pytest repos/pytest/testing/test_helpconfig.py
 flask_debughelpers_explain_template_loading_attempts.py,flask,13,58.51,158,45,repos/flask/src/flask/debughelpers.py,explain_template_loading_attempts,114,158,182ce3dd15dfa3537391c3efaf9c3ff407d134d4,pytest repos/flask/tests/test_templating.py -k "test_template_loader_debugging"
-
 pylint_recommendation_checker__detect_replacable_format_call.py,pylint,26,32.89,427,77,repos/pylint/pylint/checkers/refactoring/recommendation_checker.py,_detect_replacable_format_call,350,426,e90702074e68e20dc8e5df5013ee3ecf22139c3e,pytest repos/pylint/tests/checkers/unittest_variables.py
 pylint_run___init__.py,pylint,24,54.82,247,120,repos/pylint/pylint/lint/run.py,__init__,118,237,e90702074e68e20dc8e5df5013ee3ecf22139c3e,pytest repos/pylint/tests/lint/unittest_lint.py -k "not test_analyze_explicit_script"
 pylint_expand_modules_expand_modules.py,pylint,23,54.67,162,99,repos/pylint/pylint/lint/expand_modules.py,expand_modules,64,162,e90702074e68e20dc8e5df5013ee3ecf22139c3e,pytest repos/pylint/tests/lint/unittest_lint.py -k "not test_analyze_explicit_script"
@@ -26,3 +25,66 @@ pylint_utils__preprocess_options.py,pylint,15,47.73,274,45,repos/pylint/pylint/c
 pylint_find_functional_tests__check_functional_tests_structure.py,pylint,14,65.01,85,32,repos/pylint/pylint/testutils/functional/find_functional_tests.py,_check_functional_tests_structure,50,81,e90702074e68e20dc8e5df5013ee3ecf22139c3e,pytest repos/pylint/tests/testutils/test_functional_testutils.py
 pylint_plantuml_printer_emit_node.py,pylint,13,58.2,98,37,repos/pylint/pylint/pyreverse/plantuml_printer.py,emit_node,45,81,e90702074e68e20dc8e5df5013ee3ecf22139c3e,pytest repos/pylint/tests/pyreverse/test_printer.py
 pylint_deprecated_check_deprecated_method.py,pylint,13,60.66,254,35,repos/pylint/pylint/checkers/deprecated.py,check_deprecated_method,198,232,e90702074e68e20dc8e5df5013ee3ecf22139c3e,pytest repos/pylint/tests/checkers/unittest_deprecated.py
+sphinx_typing__stringify_py37.py,sphinx,21,20.95,469,50,repos/sphinx/sphinx/util/typing.py,_stringify_py37,322,371,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,pytest repos/sphinx/tests/test_util_typing.py -k "test_stringify and not test_stringify_Annotated and not test_stringify_type_hints_Union and not test_stringify_type_hints_typevars"
+sphinx_coverage_build_py_coverage.py,sphinx,37,32.64,318,90,repos/sphinx/sphinx/ext/coverage.py,build_py_coverage,141,230,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,pytest repos/sphinx/tests/test_ext_coverage.py
+sphinx_porter_step4.py,sphinx,35,28.69,410,82,repos/sphinx/sphinx/util/stemmer/porter.py,step4,288,369,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,pytest repos/sphinx/tests/test_build.py -k "test_build_all[dirhtml] or test_build_all[singlehtml]"
+sphinx_intersphinx_missing_reference.py,sphinx,32,40.47,418,79,repos/sphinx/sphinx/ext/intersphinx.py,missing_reference,260,338,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,pytest repos/sphinx/tests/test_ext_intersphinx.py -k "not test_missing_reference and not test_load_mappings_warnings"
+sphinx___init____skip_member.py,sphinx,26,29.36,485,83,repos/sphinx/sphinx/ext/napoleon/__init__.py,_skip_member,403,485,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,pytest repos/sphinx/tests/test_ext_napoleon.py
+sphinx_jsdump_loads.py,sphinx,26,43.37,200,90,repos/sphinx/sphinx/util/jsdump.py,loads,107,196,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,pytest repos/sphinx/tests/test_util_jsdump.py
+sphinx_importer_get_class_members.py,sphinx,24,39.96,339,74,repos/sphinx/sphinx/ext/autodoc/importer.py,get_class_members,245,318,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,pytest repos/sphinx/tests/test_ext_autodoc.py -k "not test_enum_class and not test_coroutine and not test_autodoc_TypeVar and not test_autodoc"
+sphinx_util_assert_node.py,sphinx,19,51.5,205,32,repos/sphinx/sphinx/testing/util.py,assert_node,51,82,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,pytest repos/sphinx/tests/test_directive_other.py
+sphinx_indexentries_create_index.py,sphinx,18,59.48,178,149,repos/sphinx/sphinx/environment/adapters/indexentries.py,create_index,30,178,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,pytest repos/sphinx/tests/test_environment_indexentries.py
+sphinx___init___get_module_source.py,sphinx,18,49.81,200,46,repos/sphinx/sphinx/pycode/__init__.py,get_module_source,32,77,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,pytest repos/sphinx/tests/test_pycode.py
+sphinx_other_parse_content.py,sphinx,17,44.66,400,63,repos/sphinx/sphinx/directives/other.py,parse_content,87,149,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,pytest repos/sphinx/tests/test_directive_other.py
+sphinx_code_run.py,sphinx,16,28.04,482,50,repos/sphinx/sphinx/directives/code.py,run,419,468,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,pytest repos/sphinx/tests/test_directive_code.py -k "not test_code_block_caption_html and not test_code_block_caption_latex and not test_literal_include_linenos and not test_literalinclude_caption_html and not test_literalinclude_caption_latex and not test_linenothreshold"
+
+sphinx_changes_write.py,sphinx,17,52.33,167,97,repos/sphinx/sphinx/builders/changes.py,write,51,147,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_jsdump_dumps.py,sphinx,17,43.37,200,26,repos/sphinx/sphinx/util/jsdump.py,dumps,75,100,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_matching__translate_pattern.py,sphinx,16,65.3,107,44,repos/sphinx/sphinx/util/matching.py,_translate_pattern,17,60,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_toctree_resolve.py,sphinx,16,49.27,337,216,repos/sphinx/sphinx/environment/adapters/toctree.py,resolve,50,265,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_setup_command_run.py,sphinx,15,66.33,195,49,repos/sphinx/sphinx/setup_command.py,run,147,195,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_code_run.py,sphinx,15,28.04,482,60,repos/sphinx/sphinx/directives/code.py,run,130,189,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_versioning_merge_doctrees.py,sphinx,14,58.95,184,65,repos/sphinx/sphinx/versioning.py,merge_doctrees,51,115,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_viewcode_collect_pages.py,sphinx,14,43.89,350,98,repos/sphinx/sphinx/ext/viewcode.py,collect_pages,232,329,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_importer_import_object.py,sphinx,14,39.96,339,64,repos/sphinx/sphinx/ext/autodoc/importer.py,import_object,78,141,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx___init___resolve_anyref.py,sphinx,14,51.96,232,48,repos/sphinx/sphinx/transforms/post_transforms/__init__.py,resolve_anyref,103,150,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_javascript_handle_signature.py,sphinx,14,40.32,457,52,repos/sphinx/sphinx/domains/javascript.py,handle_signature,55,106,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_i18n_find_catalog_source_files.py,sphinx,14,49.08,335,47,repos/sphinx/sphinx/util/i18n.py,find_catalog_source_files,155,201,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_graphviz_Graphviz.py,sphinx,13,32.88,419,66,repos/sphinx/sphinx/ext/graphviz.py,Graphviz,108,173,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_typehints_modify_field_list.py,sphinx,13,51.7,137,45,repos/sphinx/sphinx/ext/autodoc/typehints.py,modify_field_list,82,126,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx___init___ReferencesResolver.py,sphinx,13,51.96,232,118,repos/sphinx/sphinx/transforms/post_transforms/__init__.py,ReferencesResolver,61,178,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx___init___warn_missing_reference.py,sphinx,13,51.96,232,27,repos/sphinx/sphinx/transforms/post_transforms/__init__.py,warn_missing_reference,152,178,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_typing_stringify.py,sphinx,13,20.95,469,32,repos/sphinx/sphinx/util/typing.py,stringify,288,319,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_ast_visit_arguments.py,sphinx,13,45.46,230,37,repos/sphinx/sphinx/pycode/ast.py,visit_arguments,100,136,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_graphviz_run.py,sphinx,12,32.88,419,48,repos/sphinx/sphinx/ext/graphviz.py,run,126,173,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_intersphinx_fetch_inventory_group.py,sphinx,12,40.47,418,35,repos/sphinx/sphinx/ext/intersphinx.py,fetch_inventory_group,190,224,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_typehints_merge_typehints.py,sphinx,12,51.7,137,27,repos/sphinx/sphinx/ext/autodoc/typehints.py,merge_typehints,40,66,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_images_handle.py,sphinx,12,51.35,277,53,repos/sphinx/sphinx/transforms/post_transforms/images.py,handle,59,111,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_epub3_validate_config_values.py,sphinx,12,52.17,292,37,repos/sphinx/sphinx/builders/epub3.py,validate_config_values,194,230,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_docstrings_prepare_docstring.py,sphinx,12,67.98,101,37,repos/sphinx/sphinx/util/docstrings.py,prepare_docstring,47,83,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_porter_step3.py,sphinx,12,28.69,410,21,repos/sphinx/sphinx/util/stemmer/porter.py,step3,266,286,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_metadata_process_doc.py,sphinx,12,78.35,71,31,repos/sphinx/sphinx/environment/collectors/metadata.py,process_doc,31,61,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_doclinter_lint.py,sphinx,11,64.49,82,39,repos/sphinx/utils/doclinter.py,lint,22,60,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_highlighting_get_lexer.py,sphinx,11,58.35,163,38,repos/sphinx/sphinx/highlighting.py,get_lexer,89,126,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_imgmath_render_math.py,sphinx,11,43.76,401,60,repos/sphinx/sphinx/ext/imgmath.py,render_math,241,300,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_coverage_CoverageBuilder.py,sphinx,11,32.64,318,257,repos/sphinx/sphinx/ext/coverage.py,CoverageBuilder,47,303,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_viewcode_doctree_read.py,sphinx,11,43.89,350,62,repos/sphinx/sphinx/ext/viewcode.py,doctree_read,77,138,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_intersphinx_fetch_inventory.py,sphinx,11,40.47,418,37,repos/sphinx/sphinx/ext/intersphinx.py,fetch_inventory,151,187,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_intersphinx_load_mappings.py,sphinx,11,40.47,418,31,repos/sphinx/sphinx/ext/intersphinx.py,load_mappings,227,257,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_linkcode_doctree_read.py,sphinx,11,73.08,79,47,repos/sphinx/sphinx/ext/linkcode.py,doctree_read,27,73,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_build_handle_exception.py,sphinx,11,42.4,298,50,repos/sphinx/sphinx/cmd/build.py,handle_exception,33,82,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_fileutil_copy_asset.py,sphinx,11,75.5,103,46,repos/sphinx/sphinx/util/fileutil.py,copy_asset,58,103,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_porter_m.py,sphinx,11,28.69,410,36,repos/sphinx/sphinx/util/stemmer/porter.py,m,61,96,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_indexentries_IndexEntries.py,sphinx,11,59.48,178,153,repos/sphinx/sphinx/environment/adapters/indexentries.py,IndexEntries,26,178,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_coverage_build_c_coverage.py,sphinx,10,32.64,318,20,repos/sphinx/sphinx/ext/coverage.py,build_c_coverage,93,112,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_mathjax_html_visit_displaymath.py,sphinx,10,66.06,105,30,repos/sphinx/sphinx/ext/mathjax.py,html_visit_displaymath,40,69,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_graphviz_render_dot.py,sphinx,10,32.88,419,50,repos/sphinx/sphinx/ext/graphviz.py,render_dot,219,268,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx___init___run.py,sphinx,10,51.96,232,34,repos/sphinx/sphinx/transforms/post_transforms/__init__.py,run,68,101,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_code_lines_filter.py,sphinx,10,28.04,482,23,repos/sphinx/sphinx/directives/code.py,lines_filter,281,303,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_code_start_filter.py,sphinx,10,28.04,482,30,repos/sphinx/sphinx/directives/code.py,start_filter,305,334,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_other_TocTree.py,sphinx,10,44.66,400,108,repos/sphinx/sphinx/directives/other.py,TocTree,42,149,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_other_Only.py,sphinx,10,44.66,400,56,repos/sphinx/sphinx/directives/other.py,Only,289,344,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_gettext_write_doc.py,sphinx,10,49.41,330,21,repos/sphinx/sphinx/builders/gettext.py,write_doc,172,192,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_docfields_DocFieldTransformer.py,sphinx,10,45.91,368,157,repos/sphinx/sphinx/util/docfields.py,DocFieldTransformer,212,368,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_porter_PorterStemmer.py,sphinx,10,28.69,410,380,repos/sphinx/sphinx/util/stemmer/porter.py,PorterStemmer,31,410,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
+sphinx_fixtures_app_params.py,sphinx,10,60.39,264,46,repos/sphinx/sphinx/testing/fixtures.py,app_params,67,112,7ca279e33aebb60168d35e6be4ed059f4a68f2c1,
